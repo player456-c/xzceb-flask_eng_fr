@@ -42,7 +42,7 @@ def frenchToEnglish(french_text):
     english_text=translation['translations'][0]['translation']
     return english_text
 
-MYTEXT='Tuer le patron'
+""" MYTEXT='Tuer le patron'
 
 result=frenchToEnglish(MYTEXT)
-print(result)
+print(result) """

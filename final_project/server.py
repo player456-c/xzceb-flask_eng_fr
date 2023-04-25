@@ -1,10 +1,7 @@
 
-""" import sys
-sys.path.append('/home/project/xzceb-flask_eng_fr/final_project/machinetranslation/') """
-""" from machinetranslation.translator import englishToFrench, frenchToEnglish """
-print("1234")
+# print("1234")
 from machinetranslation import translator
-print("1234")
+
 from flask import Flask, render_template, request
 import json
 
